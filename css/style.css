@@ -408,7 +408,7 @@ p {
   background-size: cover;
 }
 
-@media screen and (min-resolution 2dppx) {
+@media screen and (min-resolution: 2dppx) {
   .section-hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -465,7 +465,7 @@ p {
     max-width: 768px;
   }
 
-  @media screen and (min-resolution 2dppx) {
+  @media screen and (min-resolution: 2dppx) {
     .section-hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -497,7 +497,7 @@ p {
     max-width: 1440px;
   }
 
-  @media screen and (min-resolution 2dppx) {
+  @media screen and (min-resolution: 2dppx) {
     .section-hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
