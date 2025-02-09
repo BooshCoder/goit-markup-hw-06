@@ -1016,3 +1016,29 @@ p {
     min-width: 264px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .basement {
+    padding: 100px;
+  }
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 1158px;
+    padding: 0 15px;
+  }
+  .footer-container-text {
+    margin-bottom: 72px;
+  }
+  .footer-soc-link:hover,
+  .footer-soc-link:focus {
+    background-color: #31d0aa;
+  }
+  .footer-input {
+    border: 1px solid #ffffff;
+  }
+  .footer-input::placeholder {
+    color: #ffffff;
+  }
+}

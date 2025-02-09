@@ -229,12 +229,6 @@
 /*?                           * SECTION PORTFOLIO */
 /*!                                * FOOTER */
 
-.basement {
-  background-color: rgb(46, 47, 66);
-  color: #f4f4fd;
-  padding: 100px 0;
-}
-
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -275,11 +269,6 @@
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: #31d0aa;
 }
 
 .footer-form {
