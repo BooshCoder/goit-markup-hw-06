@@ -978,16 +978,17 @@ p {
 }
 @media screen and (min-width: 768px) {
   .basement {
-    padding: 97.5px 164px 96px 108px;
+    padding: 97.5px 0 96px 92px;
   }
   .footer-container {
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 0 24px;
     width: 100%;
     max-width: 768px;
-    padding: 0;
+    padding: 0 16px;
   }
   .footer-container-text {
     align-items: unset;
@@ -1018,14 +1019,14 @@ p {
 }
 @media screen and (min-width: 1158px) {
   .basement {
-    padding: 100px;
+    padding: 100px 0;
   }
   .footer-container {
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    min-width: 1158px;
+    max-width: 1158px;
+
     padding: 0 15px;
   }
   .footer-container-text {
