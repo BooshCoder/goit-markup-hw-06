@@ -261,6 +261,8 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
 }
 .logo-part {
   color: #2e2f42;
@@ -1181,7 +1183,8 @@ p {
 }
 
 .modal-check-text {
-  display: block;
+  display: flex;
+  align-items: center;
   color: #8e8f99;
   font-weight: 400;
   font-size: 12px;
@@ -1193,6 +1196,7 @@ p {
 }
 
 .check-link {
+  display: inline-block;
   color: #4d5ae5;
   line-height: 1.13;
   text-decoration: underline;
@@ -1201,7 +1205,7 @@ p {
 
 .modal-check-box {
   display: inline-flex;
-  width: 16px;
+  min-width: 16px;
   height: 16px;
   border-radius: 2px;
   margin-right: 8px;
